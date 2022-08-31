@@ -104,3 +104,77 @@ body {
     cursor: pointer;
     /* ou background none  */
 }
+
+.screen-two {
+    padding: 55px 98px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.screen-two .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.screen-two h1 {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    color: #014561;
+    margin: 0;
+}
+
+.screen-two .description {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 141.3%;
+    color: #333333;
+    margin-block: 40px 27px;
+}
+
+.screen-two .quote {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 141.3%;
+    color: #1C86A4;
+    margin: 0;
+}
+
+.screen-two span {
+    font-family: 'Cormorant';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 141.3%;
+    align-self: flex-end;
+    margin-block: -10px 10px;
+}
+
+.screen-two button {
+    background: #014561;
+    border-radius: 2px;
+    color: #E5E5E5;
+    padding: 15px 79px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    transition: 1s;
+    max-width: 303px;
+}
+
+.screen-two button:hover{
+    background: #00648C;
+    cursor: pointer;
+}
+
+.screen-two .quote-image{
+    position: absolute;
+    right: 15px;
+    bottom: 138px;
+}
