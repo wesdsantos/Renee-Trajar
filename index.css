@@ -112,7 +112,7 @@ body {
     gap: 100px;
 }
 
-.screen-two .content{
+.screen-two .content {
     display: flex;
     flex-direction: column;
 }
@@ -168,13 +168,55 @@ body {
     max-width: 303px;
 }
 
-.screen-two button:hover{
+.screen-two button:hover {
     background: #00648C;
     cursor: pointer;
 }
 
-.screen-two .quote-image{
+.screen-two .quote-image {
     position: absolute;
     right: 15px;
     bottom: 138px;
+}
+
+.screen-three {
+    background: #EFF7F9;
+    display: flex;
+    position: relative;
+}
+
+.screen-three .comment {
+    width: 1068px;
+    height: 360px;
+    padding: 0px 270px 0px 148px;
+    position: absolute;
+}
+
+.screen-three p {
+    padding: 90px 255px 47px 20px;
+    margin: 0;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 141.3%;
+    color: #828282;
+}
+
+.screen-three .nelson-name {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 141.3%;
+    color: #014561;
+    padding: 239px 503px 81px 267px;
+}
+
+.screen-three .lawyer-name {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 141.3%;
+    color: #BE9667;
+    padding: 38px 360px 55px 124px;
 }
