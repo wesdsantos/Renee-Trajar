@@ -180,43 +180,72 @@ body {
 }
 
 .screen-three {
-    background: #EFF7F9;
     display: flex;
     position: relative;
+
 }
 
-.screen-three .comment {
-    width: 1068px;
+.screen-three .background-costumer-comment {
+    background-image: url("./assets/Tailor.png");
+    width: calc(100vw - 313px);
     height: 360px;
-    padding: 0px 270px 0px 148px;
-    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 100%;
 }
 
-.screen-three p {
-    padding: 90px 255px 47px 20px;
-    margin: 0;
+.screen-three .costumer-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(239, 247, 249, 1) 0%, rgba(239, 247, 249, 0.4) 100%);
+}
+
+.screen-three .costumer-comment p {
+    margin-block: 18px 47px;
     font-family: 'Lato';
     font-weight: 300;
     font-size: 24px;
     line-height: 141.3%;
     color: #828282;
+    max-width: 630px;
+    text-align: center;
+
 }
 
-.screen-three .nelson-name {
+.screen-three .costumer-name {
     font-family: 'Cormorant';
     font-style: italic;
     font-weight: 400;
     font-size: 28px;
     line-height: 141.3%;
     color: #014561;
-    padding: 239px 503px 81px 267px;
 }
 
-.screen-three .lawyer-name {
+.screen-three .costumer-profession {
     font-family: 'Lato';
     font-weight: 300;
     font-size: 20px;
     line-height: 141.3%;
     color: #BE9667;
-    padding: 38px 360px 55px 124px;
+}
+
+.screen-three .background-costumer-one {
+    background-image: url("./assets/blue-suit.png");
+    width: 313px;
+    height: 360px;
+}
+
+.filter-blue {
+    background-color: rgba(2, 75, 104, 0.81);
+    width: 100%;
+    height: 100%;
+}
+.screen-three .background-costumer-two{
+    background-image: url("./assets/gray-suit.png");
+    width: 283px;
+    height: 363px;
+    position: absolute;
+    right: 250px;
 }
