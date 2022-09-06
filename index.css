@@ -151,7 +151,7 @@ body {
     font-size: 20px;
     line-height: 141.3%;
     align-self: flex-end;
-    margin-block: -10px 10px;
+    margin-block: 0px 10px;
 }
 
 .screen-two button {
@@ -180,38 +180,34 @@ body {
 }
 
 .screen-three {
+    width: 100%;
     display: flex;
+    background-color: #1C86A4;
     position: relative;
-
 }
 
-.screen-three .background-costumer-comment {
-    background-image: url("./assets/Tailor.png");
+.screen-three .costumer-testimonal {
+    background-color: #EFF7F9;
     width: calc(100vw - 313px);
     height: 360px;
     background-repeat: no-repeat;
-    background-position: 100%;
-}
-
-.screen-three .costumer-comment {
+    background-image: url("./assets/Tailor.png");
+    background-position: 100%;   
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; 
     justify-content: center;
-    height: 100%;
-    background: linear-gradient(90deg, rgba(239, 247, 249, 1) 0%, rgba(239, 247, 249, 0.4) 100%);
+    align-items: center;
+
 }
 
-.screen-three .costumer-comment p {
-    margin-block: 18px 47px;
+.screen-three p {
+    color: #828282;
     font-family: 'Lato';
     font-weight: 300;
     font-size: 24px;
     line-height: 141.3%;
-    color: #828282;
     max-width: 630px;
     text-align: center;
-
 }
 
 .screen-three .costumer-name {
@@ -221,9 +217,11 @@ body {
     font-size: 28px;
     line-height: 141.3%;
     color: #014561;
+    display: block;
+    margin-top: 47px;
 }
 
-.screen-three .costumer-profession {
+.screen-three .profision-costumer {
     font-family: 'Lato';
     font-weight: 300;
     font-size: 20px;
@@ -231,21 +229,24 @@ body {
     color: #BE9667;
 }
 
-.screen-three .background-costumer-one {
+.screen-three .nelson{
     background-image: url("./assets/blue-suit.png");
     width: 313px;
     height: 360px;
+    background-repeat: no-repeat;
 }
 
-.filter-blue {
-    background-color: rgba(2, 75, 104, 0.81);
+.screen-three .filter-blue{
     width: 100%;
     height: 100%;
+    background-color:rgba(2, 75, 104, 0.81);
 }
-.screen-three .background-costumer-two{
+
+.screen-three .nelson-image-two{
     background-image: url("./assets/gray-suit.png");
-    width: 283px;
-    height: 363px;
+    width: 280px;
+    height: 353px;
     position: absolute;
-    right: 250px;
+    right: 254px;
 }
+
