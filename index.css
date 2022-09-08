@@ -192,9 +192,9 @@ body {
     height: 360px;
     background-repeat: no-repeat;
     background-image: url("./assets/Tailor.png");
-    background-position: 100%;   
+    background-position: 100%;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -229,20 +229,20 @@ body {
     color: #BE9667;
 }
 
-.screen-three .nelson{
+.screen-three .nelson {
     background-image: url("./assets/blue-suit.png");
     width: 313px;
     height: 360px;
     background-repeat: no-repeat;
 }
 
-.screen-three .filter-blue{
+.screen-three .filter-blue {
     width: 100%;
     height: 100%;
-    background-color:rgba(2, 75, 104, 0.81);
+    background-color: rgba(2, 75, 104, 0.81);
 }
 
-.screen-three .nelson-image-two{
+.screen-three .nelson-image-two {
     background-image: url("./assets/gray-suit.png");
     width: 280px;
     height: 353px;
@@ -250,3 +250,46 @@ body {
     right: 254px;
 }
 
+.screen-four {
+    padding: 53px 100px 50px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: end;
+    
+
+}
+
+.screen-four h3 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1C86A4;
+    margin-block: 14px 5px;
+}
+
+.screen-four span {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #727272;
+}
+
+.screen-four .centralize{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.screen-four .centralize img{
+    width: 36px;
+    height: 36px;
+}
+
+.screen-four .divider{
+    height: 57px;
+    border-left: 1px solid #CCCCCC;
+}
