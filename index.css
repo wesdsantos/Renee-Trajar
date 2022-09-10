@@ -40,7 +40,7 @@ body {
     background-position: 50% 50%;
     background-size: cover;
     height: calc(630px - 177px - 50px);
-    padding: 177px 0px 50px 98px;  
+    padding: 177px 0px 50px 98px;
 }
 
 .screen-one span {
@@ -109,7 +109,7 @@ body {
     padding: 55px 98px;
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 100px
 }
 
 .screen-two .content {
@@ -373,4 +373,43 @@ body {
 .screen-five button:hover {
     background: #727272;
     cursor: pointer;
+}
+
+.screen-six {
+    padding: 62px 97px 8px 19px;
+    display: flex;
+}
+
+.screen-six .confection{
+    border: 1px solid #E5E5E5;
+    width: 1011px;
+    height: 385px;
+}
+
+.screen-six h1 {
+    font-family: 'Cormorant';
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 75px;
+    color: #014561;
+    /* margin: ; */
+}
+
+.screen-six span {
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.screen-six .category {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #727272;
+    display: flex;
+    gap: 68px;
 }
