@@ -380,10 +380,11 @@ body {
     display: flex;
 }
 
-.screen-six .confection{
+.screen-six .confection {
     border: 1px solid #E5E5E5;
     width: 1011px;
     height: 385px;
+    
 }
 
 .screen-six h1 {
@@ -392,7 +393,6 @@ body {
     font-size: 62px;
     line-height: 75px;
     color: #014561;
-    /* margin: ; */
 }
 
 .screen-six span {
@@ -412,4 +412,23 @@ body {
     color: #727272;
     display: flex;
     gap: 68px;
+    margin-block: 31px 35px;
+}
+
+.screen-six button {
+    background: #014561;
+    border-radius: 2px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E5E5E5;
+    padding: 14px 83px;
+    transition: 1s;
+    border: none;
+}
+
+.screen-six button:hover {
+    background: #00648C;
+    cursor: pointer;
 }
